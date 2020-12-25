@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="emptyContent">Please enter your notification content!</string>
+    <string name="emptyDate">Please pick date for your notification!</string>
+    <string name="emptyTime">Please pick time for your notification!</string>
+    <string name="invalidDateTime">The picked date time is invalid. Please pick again!</string>
+</resources>

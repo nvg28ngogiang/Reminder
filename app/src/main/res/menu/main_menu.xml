@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/option_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/option_new"
+            android:title="New"
+            android:icon="@drawable/ic_new" />
+        <item
+            android:id="@+id/option_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_setting" />
+    </group>
+    <item
+        android:title="View">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/option_view_history"
+                    android:title="History"
+                    android:icon="@drawable/ic_history"/>
+                <item
+                    android:id="@+id/option_view_current"
+                    android:title="Current"
+                    android:icon="@drawable/ic_storage"/>
+            </group>
+        </menu>
+    </item>
+</menu>
+
